@@ -82,7 +82,7 @@ const score = document.querySelector('.score');
                 if(keys.ArrowUp && player.y > road.top + 100 ){ player.y -= player.speed};
                 if(keys.ArrowDown && player.y < road.bottom - 70){ player.y += player.speed};
                 if(keys.ArrowLeft && player.x > 0 ){ player.x -= player.speed};
-                if(keys.ArrowRight && player.x < (road.width - 50)){ player.x += player.speed};
+                if(keys.ArrowRight && player.x < (road.width - 60)){ player.x += player.speed};
  
                 car.style.top = player.y + 'px';
                 car.style.left = player.x + 'px';
